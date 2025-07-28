@@ -1,0 +1,60 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #2c7a7b;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.dechets, .poubelles {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.dechet {
+  width: 80px;
+  height: 80px;
+  cursor: grab;
+}
+
+.poubelle {
+  width: 120px;
+  height: 120px;
+  border: 3px dashed #aaa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #2c7a7b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+#message {
+  font-size: 18px;
+  font-weight: bold;
+  height: 24px; /* pour garder espace même si vide */
+  margin-top: 15px;
+}

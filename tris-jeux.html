@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Jeu de Tri des Poubelles</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="tri-jeu.css" />
+</head>
+<body>
+  <!-- MENU D'ACCUEIL -->
+  <div id="menu-accueil">
+    <h1>Bienvenue dans le Jeu de Tri des Poubelles ♻️</h1>
+    <p>Apprends à bien trier tes déchets en t'amusant !</p>
+    <button onclick="demarrerJeu()">▶️ Commencer le jeu</button>
+  </div>
+
+  <!-- ZONE DE JEU -->
+  <div id="jeu" style="display: none;">
+    <h2>Jeu de tri des poubelles ♻️</h2>
+    <p>Glisse chaque déchet dans la bonne poubelle !</p>
+    <div id="niveau"></div>
+    <div class="game-container">
+      <div id="zone-dechets" class="dechets"></div>
+      <div id="zone-poubelles" class="poubelles"></div>
+    </div>
+    <p id="message"></p>
+    <button onclick="niveauSuivant()">Niveau suivant ▶️</button>
+  </div>
+
+  <script src="tri-jeu.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+body {
+  font-family: 'Libre Baskerville', serif;
+  background-color: #b8ffd6 #fffee5;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #2c7a7b;
+  margin-bottom: 30px;
+}
+
+#question {
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: none;
+  background-color: #2c7a7b;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#resultat {
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 18px;
+  min-height: 24px;
+}
+button:hover {
+  background-color: #539d82;
+  transform: scale(1.05);
+}

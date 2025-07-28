@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 30px;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dechets {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.dechet {
+  width: 80px;
+  cursor: grab;
+}
+
+.poubelles {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.poubelle {
+  width: 120px;
+  height: 120px;
+  border: 3px dashed #aaa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: white;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #333;
+}
